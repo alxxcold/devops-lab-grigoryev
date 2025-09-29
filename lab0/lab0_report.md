@@ -6,7 +6,7 @@ Group: U4225\
 Author: Grigoryev Alexey Pavlovich\
 Lab: Lab0\
 Date of create: 29.09.2025\
-Date of finished: 29.09.2025\
+Date of finished: 29.09.2025
 
 History of this repo represents completing lab0
 1. ADD Readme 
