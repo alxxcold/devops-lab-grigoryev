@@ -28,10 +28,10 @@ Lab1*
 ![img8.png](img8.png)
 2. Создаем Dockerfile по инструкции (Dockerfile находится в папке lab1star)
 3. При запуске видим, что выходит ошибка — недостаточно Python пакетов, придётся запускать локально и понять, какие файлы нужны
-`python3.9 -m venv venv`
-`source venv/bin/activate`
-`pip install flask`
-`pip freeze > requirements.txt`
+`python3.9 -m venv venv` \
+`source venv/bin/activate` \
+`pip install flask` \
+`pip freeze > requirements.txt` \
 Мы локально создали среду для запуска python, скачали нужные зависимости и "заморозили" их, теперь можно запускать.
 4. Билдим, запускаем и делаем запрос к контейнеру — все работает
 ![img7.png](img7.png)
